@@ -94,7 +94,7 @@ their size, the background color of the box*/
 }
 /*these 3 define the spacing of the words in the asides from the spacing of the title below it.*/
 /*I was able to condense these sections by focusing on the h3 sections under the benefits container*/
-.benefits h3{
+.benefits aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
