@@ -4,4 +4,4 @@ I did a refactor of the website code to consolidate the css code using seminal l
 I also wrote complete comments for my articles and defined what a lot of the CSS code does.
 
 https://mathaeneus-rex.github.io/Code_Refactor/
-![](images/website%20screenshot.jpeg)
+![](assets/images/website%20screenshot.jpeg)
