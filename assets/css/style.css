@@ -60,7 +60,8 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*I think these 3 sections of code below control the box positioning of the pictures*/
+/*I think these 2 sections of code below control the picture
+positioning relative to the content paragraphs*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -70,13 +71,17 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*the width reduces the box size to make room for the aside
+inline block allows the aside to be placed next to it
+margin left puts a bit of space between the content 
+and left side of your screen*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*defines the spacing of the words inside the box, their font
+their size, the background color of the box*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -88,73 +93,25 @@ p {
     background-color: #2589bd;
 }
 /*these 3 define the spacing of the words in the asides from the spacing of the title below it.*/
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
+/*I was able to condense these sections by focusing on the h3 sections under the benefits container*/
+.benefits h3{
     margin-bottom: 32px;
     color: #ffffff;
 }
 /*these affect the spacing at the bottom of the titles*/
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 /*the define the spacing around the pictures and max pixel width for pictures in the aside.*/
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 /*these next 24 lines of code define the fonts in the articles, the background color and font colors and the max spacing and height*/
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
+/*I was able to condense this code down with the "article" seminal container*/
+.content article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -163,29 +120,12 @@ p {
     color: #ffffff;
 }
 /*these define the heights for my images in the sections. max 200px*/
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
+/*I was able to condense down this code from its original by applying it to the content container*/
+.content img {
     max-height: 200px;
 }
 /*title spacing for the articles and font size*/
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
